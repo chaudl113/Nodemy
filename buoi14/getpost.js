@@ -24,7 +24,7 @@ app.post('/login', function (req, res) {
     if (req.body.user === 'admin' && req.body.pass === '123456') {
         res.json('Đăng nhập thành công')
     } else {
-        res.redirect(alert('lỗi'))
+        res.redirect('./')
 
 
     }
